@@ -26,11 +26,8 @@ które chcą mieć dostęp do zasobów
 - `ArrayList<Thread> readers`: listy czytających czytelników
 muszą zdobyć permit z `Semafor`a `queueAccessPermits`
 
-  
-5. Paczka wykonywalna znajduje sie w module main, który ma dodaną zależność od modułu utils gdyż wykorzystje klasę tam zdefiniowaną - w sekcji <dependencies> dodano:
-
-    <dependency>
-        <groupId>pl.edu.agh.kis.pz1</groupId>
-        <artifactId>utils</artifactId>
-        <version>${project.version}</version>
-    </dependency>
+# Odpalanie
+Paczka wykonywalna znajduje sie w module main. 
+Należy ją odpalić używając `java -jar nazwa-paczki.jar liczbaCzytelników liczbaPisarzy`
+`liczbaCzytelników` - argument określający, ilu czytelników ma wytworzyć `ReaderFactory`
+`liczbaPisarzy` - argument określający, ilu czytelników ma wytworzyć `WriterFactory`

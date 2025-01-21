@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"pl.edu.agh.kis.pz1","l":"Library"},{"p":"pl.edu.agh.kis.pz1","l":"Main"},{"p":"pl.edu.agh.kis.pz1","l":"Reader"},{"p":"pl.edu.agh.kis.pz1","l":"ReaderFactory"},{"p":"pl.edu.agh.kis.pz1","l":"Writer"},{"p":"pl.edu.agh.kis.pz1","l":"WriterFactory"}];updateSearchResults();
